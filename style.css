@@ -1,0 +1,18 @@
+.navbar{border: 1px solid black}
+.logo{
+    display: inline-block;
+}
+.links{
+    display: inline-block;
+    float: right;
+}
+.content{
+    display: inline-block;
+}
+.side-content{
+    display: inline-block;
+    float: right;
+}
+.sidelinks{
+    display: inline-block;
+}
