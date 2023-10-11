@@ -1,18 +1,144 @@
-.navbar{border: 1px solid black}
-.logo{
-    display: inline-block;
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(42, 56, 43);
 }
-.links{
+.menubar{
+    border: 1px solid black;
+    height: 5vh;
+    background-color: rgb(85, 121, 97);
+}
+.product{
     display: inline-block;
+    margin-top: 5px;
+    margin-left: 15px;
+    background-color:  rgb(85, 121, 97);
+    color: rgb(196, 209, 187);
+    font-family: 'Times New Roman', Times, serif;
+}
+.product h1{
+    background-color: rgb(85, 121, 97);
+}
+.linkgroup{
+    display: inline-block;
+    margin-top: 3px;
+    margin-left: 10px;
+    background-color:  rgb(85, 121, 97);
     float: right;
 }
-.content{
-    display: inline-block;
+.linkgroup a{
+    background-color:  rgb(85, 121, 97);
 }
-.side-content{
-    display: inline-block;
-    float: right;
+.linkgroup img{
+    width: 40px;
+    height: 35px;
+    border-radius: 10pc;
+}
+#pt:hover{
+    opacity: 100;
+    transition: 0.4s;
+    padding: 2px;
+    
+}
+#fb:hover{
+    opacity: 100;
+    transition: 0.4s;
+    padding: 2px;
+    
+}
+#tt:hover{
+    opacity: 100;
+    transition: 0.4s;
+    padding: 2px;
+    
+}
+#insta:hover{
+    opacity: 100;
+    transition: 0.4s;
+    padding: 2px;
+  
+    
+}
+.body{
+    text-align: center;
+    margin-top: 25px;
+}
+.body div{
+    min-height: 40vh;
 }
 .sidelinks{
     display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 10vw;
+    background-color: rgb(233, 231, 203);
+    float: left;
+
+    
+}
+.sidelinks a{
+    background-color: rgb(233, 231, 203);
+    display: block;
+    margin-top: 50px
+}
+.sidelinks h2{
+    background-color:  rgb(233, 231, 203);;
+}
+.content{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    width: 68vw;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    background-color: rgb(233, 231, 203);;
+}
+.content p{
+    background-color: rgb(233, 231, 203);
+}
+.content h2{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(233, 231, 203);;
+}
+.content h3{
+    background-color: rgb(233, 231, 203);;
+    
+    
+}
+.content img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 1vh;
+    margin-left: 3px;
+    margin-right: 0px;
+    background-color: rgb(233, 231, 203);;
+    
+}
+.Side-Content{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 15vw;
+    background-color:rgb(233, 231, 203);;
+    float: right;
+}
+.Side-Content img{
+    width: 12.5vw;
+    background-color:rgb(233, 231, 203);
+}
+.Side-Content p{
+    margin-top: 5px;
+    background-color:rgb(233, 231, 203);
+    font-family:'Courier New', Courier, monospace;
+}
+.Side-Content h2{
+    background-color: rgb(233, 231, 203);
+}
+.BENEFITS{
+   width: 150px;
+   height: 100px;
 }
